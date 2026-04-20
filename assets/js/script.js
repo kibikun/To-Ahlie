@@ -25,12 +25,12 @@ function showNextText() {
         next.classList.add("active");
 
         if (index < texts.length - 1) {
-            setTimeout(showNextText, 5000);
+            setTimeout(showNextText, 10000);
         }
     }
 }
 
-setTimeout(showNextText, 5000);
+setTimeout(showNextText, 10000);
 
 
 const music = document.getElementById("bg-music");
